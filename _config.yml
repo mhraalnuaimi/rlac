@@ -23,7 +23,6 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -58,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Mhara Al Nuaimi"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
