@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Mhara Al Nuaimi"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I’m a freshman at NYUAD planning to major in Interactive Media and taking the Reading Like a Computer elective to explore how technology, text, and creativity intersect in digital humanities and computational storytelling"
+  bio    : "I’m a freshman at NYUAD planning to major in Interactive Media and taking the Reading Like a Computer elective"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
