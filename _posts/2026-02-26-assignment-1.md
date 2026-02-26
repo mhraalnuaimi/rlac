@@ -23,7 +23,7 @@ Another reason for the choice of these primary texts for our corpus was that the
 
 ## Methodology: Building a Violence Dictionary in R
 	
-[Figure 1](assets/images/figure1.png)
+[Figure 1]" "assets/images/figure1.png"
 
 **Figure 1. Violence dictionary for analysis in R (124 terms)**
 To systematically measure violent action language, we constructed a custom ‘violence dictionary’ in R, shown in Figure 1. This violence dictionary included terms such as “attack”, “kill”, “curse”, “blood”, “wound”, “fight”, and magical combat terms like “Avada”, “Crucio”, and “sectumsempra”. The violence dictionary contains 124 words in total; enough to gauge a wide scope of violent terminology, but not so extensive that it introduces excessive noise or overgeneralizes non-violent language as violent. In some cases, multiple variations of the same violence-related word are included, such as “attack, “attacked”, “attacking”, to account for different grammatical forms and to ensure that our dictionary captures violence-related language regardless of tense or usage. 
@@ -32,7 +32,7 @@ By defining this lexicon in advance, we created a reproducible method for identi
 
 Findings from R: Heatmap Analysis 
  
-[Figure 2](assets/images/figure2.png)
+[Figure 2] "assets/images/figure2.png"
 
 **Figure 2. Heatmap of 15 terms from violence dictionary across the 2 Rowling and 3 Fanfiction Texts (per 10,000 words)**
 The heatmap in Figure 2 reveals striking differences in violent vocabulary distribution. In Deathly Hallows, the word “death” appears at a dramatically higher rate (15.4 occurrences per 10,000 words) compared to the fanfiction texts.
