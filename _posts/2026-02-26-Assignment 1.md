@@ -5,6 +5,7 @@ categories:
   - assignments
 tags:
   - update
+  - Post Formats 
 ---
 
 ---
