@@ -12,18 +12,18 @@ tags:
 
 
 ## Introduction: Violence in Harry Potter, & Why Should It Be Studied? 
-	The Harry Potter series, by J.K Rowling, is built around violence; duels, wars, curses and death shape both the original novels as well as the vast landscape of over a million fanfictions they inspired. Yet while readers often assume fanfiction simply imitates Rowling’s style, authors of fanfiction frequently reimagine tone, pacing, and emotional intensity. This project asks: How does the use of explicit violent language differ between Rowling’s novels and Harry Potter fanfiction, and what does this suggest about how each text portrays conflict?
+The Harry Potter series, by J.K Rowling, is built around violence; duels, wars, curses and death shape both the original novels as well as the vast landscape of over a million fanfictions they inspired. Yet while readers often assume fanfiction simply imitates Rowling’s style, authors of fanfiction frequently reimagine tone, pacing, and emotional intensity. This project asks: How does the use of explicit violent language differ between Rowling’s novels and Harry Potter fanfiction, and what does this suggest about how each text portrays conflict?
 
-	In order to investigate this question, we analyzed two novels by J.K Rowling (Goblet of Fire and Deathly Hallows), in comparison to three fanfiction texts. Two computational text analysis softwares were used for this analysis: Mhara conducted an analysis in Voyant tools, Amna conducted an analysis in R (Posit Cloud), and a cross-examination of the results from both software was discussed in order to gain a wider, more in-depth understanding. Using these two analysis softwares, we examined patterns in violent vocabulary across approximately one million words of text in total. Rather than relying on selective close reading, we use distant reading to identify broader linguistic patterns that shape how violence is represented. 
+In order to investigate this question, we analyzed two novels by J.K Rowling (Goblet of Fire and Deathly Hallows), in comparison to three fanfiction texts. Two computational text analysis softwares were used for this analysis: Mhara conducted an analysis in Voyant tools, Amna conducted an analysis in R (Posit Cloud), and a cross-examination of the results from both software was discussed in order to gain a wider, more in-depth understanding. Using these two analysis softwares, we examined patterns in violent vocabulary across approximately one million words of text in total. Rather than relying on selective close reading, we use distant reading to identify broader linguistic patterns that shape how violence is represented. 
 
 ## Corpus Selection & Context
-	Our corpus includes two Rowling novels: Harry Potter and the Goblet of Fire (195,773 words) and Harry Potter and the Deathly Hallows (200,119 words). In addition, the three fanfiction texts were: The Best of Fathers, by Guitérres De La Torre (207, 997 words), Harry Potter: Djinn Awakened, by Invaderdoom/Wishmaster1983 ( 107,151 words), and Dragonheart Caravan, by Witchdragon (240,337 words). 
+Our corpus includes two Rowling novels: Harry Potter and the Goblet of Fire (195,773 words) and Harry Potter and the Deathly Hallows (200,119 words). In addition, the three fanfiction texts were: The Best of Fathers, by Guitérres De La Torre (207, 997 words), Harry Potter: Djinn Awakened, by Invaderdoom/Wishmaster1983 ( 107,151 words), and Dragonheart Caravan, by Witchdragon (240,337 words). 
 One reason for the choice of selecting Rowling texts that are later novels in the series is because they contain sustained depictions of war and confrontation, allowing for meaningful comparison with fanfiction that often centers on darker or alternative plotlines. 
 Another reason for the choice of these primary texts for our corpus was that they are all relatively similar in word count. It should be noted that although the text by Invaderdoom is significantly lower (~100,00 words), this was relatively close in comparison to other Harry Potter fanfiction from the original corpus pool we were selecting from, provided by Prof.Wrisley. However, we took this into account in our analysis in order to maintain a high validity in the results we are presenting, which is further explained in the ‘Methodology’ section. 
 
 ## Methodology: Building a Violence Dictionary in R
 	
-  ![Figure 1](assets/images/figure1.png)
+[Figure 1](assets/images/figure1.png)
 
 **Figure 1. Violence dictionary for analysis in R (124 terms)**
 To systematically measure violent action language, we constructed a custom ‘violence dictionary’ in R, shown in Figure 1. This violence dictionary included terms such as “attack”, “kill”, “curse”, “blood”, “wound”, “fight”, and magical combat terms like “Avada”, “Crucio”, and “sectumsempra”. The violence dictionary contains 124 words in total; enough to gauge a wide scope of violent terminology, but not so extensive that it introduces excessive noise or overgeneralizes non-violent language as violent. In some cases, multiple variations of the same violence-related word are included, such as “attack, “attacked”, “attacking”, to account for different grammatical forms and to ensure that our dictionary captures violence-related language regardless of tense or usage. 
@@ -32,7 +32,7 @@ By defining this lexicon in advance, we created a reproducible method for identi
 
 Findings from R: Heatmap Analysis 
  
- ![Figure 2](assets/images/figure2.png)
+[Figure 2](assets/images/figure2.png)
 
 **Figure 2. Heatmap of 15 terms from violence dictionary across the 2 Rowling and 3 Fanfiction Texts (per 10,000 words)**
 The heatmap in Figure 2 reveals striking differences in violent vocabulary distribution. In Deathly Hallows, the word “death” appears at a dramatically higher rate (15.4 occurrences per 10,000 words) compared to the fanfiction texts.
@@ -42,11 +42,11 @@ However, fanfiction texts display higher relative frequencies of bodily harm ter
 
 Findings from R: Word Clouds 
 
-![Figure 3](assets/images/figure3.png)
+[Figure 3](assets/images/figure3.png)
 
 **Figure 3. Word clouds displaying the normalized frequency of violence-dictionary terms in selected texts. (Word size reflects mean occurrences per 10,000 words, with larger words indicating higher relative frequency.)**
 
-![Figure 4](assets/images/figure4.png)
+[Figure 4](assets/images/figure4.png)
 
 **Figure 4. Word clouds comparing the relative frequency of violence-dictionary terms in fanfiction texts and Rowling’s original texts.**
 
@@ -58,7 +58,7 @@ However, a key difference is that fanfiction word clouds distribute violent term
 Findings from Voyant Tools: Trends Graph
 Voyant allowed us to visualize how violent words behave across the entire corpus and to look at how these words appear in actual sentences. Instead of focusing on normalized counts like in R, Voyant helped us see how violent language rises and falls throughout each text and how it is used in context.
 
-<iframe style='width: 1470px; height: 775px;' src='https://voyant-tools.org/tool/Trends/?view=Trends&query=hate&query=kill&query=killing&query=blood&query=scream&query=shout&query=hurt&query=hurting&query=wound&query=shouted&query=shouting&query=curse&query=killed&query=attack&query=attacked&query=fought&query=cursed&query=fight&chartType=line&corpus=35f7c6a1aba63b64ab58e37088c3034d'></iframe>
+<iframe style='width: 600px; height: 344px;' src='https://voyant-tools.org/tool/Trends/?view=Trends&query=hate&query=kill&query=killing&query=blood&query=scream&query=shout&query=hurt&query=hurting&query=wound&query=shouted&query=shouting&query=curse&query=killed&query=attack&query=attacked&query=fought&query=cursed&query=fight&chartType=line&corpus=35f7c6a1aba63b64ab58e37088c3034d'></iframe>
 
 **Figure 5. Voyant Tools Trends graph showing the frequency of selected violent words across the full timeline of each text.**
 
@@ -68,7 +68,7 @@ The first visualization we examined was the Trends graph. We entered a set of vi
 
 Findings from Voyant Tools: Cirrus Word Cloud
 
-![Figure 6](assets/images/figure6.png)
+[Figure 6](assets/images/figure6.png)
 
 **Figure 6. Voyant Cirrus word cloud showing the most frequent words across the corpus.**
 
@@ -78,7 +78,7 @@ Character names and dialogue verbs dominate, showing that violent vocabulary is 
 
 **Findings from Voyant Tools: Contexts tool**
 
-![Figure 7](assets/images/figure7.png)
+[Figure 7](assets/images/figure7.png)
 
 **Figure 7. Voyant Contexts (concordance) view for the word kill. Rowling’s examples show hesitation or moral conflict, while fanfiction examples show more direct and assertive uses of violent language.**
 
@@ -98,6 +98,7 @@ Both group members contributed equally to the project. Amna conducted the R/Posi
 
 ## Works Cited
 Kestemont, Mike, and Luc Herman. “Can Machines Read (Literature)?” Umanistica Digitale, no. 5, 2019, pp. 1–14.
+
 Pechenick, Eitan Adam, Christopher M. Danforth, and Peter Sheridan Dodds. “Characterizing the Google Books Corpus: Strong Limits to Inferences of Socio‑Cultural and Linguistic Evolution.” PLOS ONE, vol. 10, no. 10, 2015, e0137041.
 
 READY FOR GRADING
