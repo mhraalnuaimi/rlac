@@ -1,14 +1,8 @@
 ---
 title: "Assignment 1"
-date: 2026-02-26 15:34:30 -04:00
+date: 2026-02-26 
 categories:
   - assignments
-
----
-
-Your assignmenttags:
-  - update text starts here…
-
 
 ---
 
