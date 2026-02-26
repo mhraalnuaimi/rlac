@@ -1,13 +1,14 @@
 ---
----
-titledate: 2026-02-26: "Assignment 1"
-T15:34:30-04:00
+title: "Assignment 1"
+date: 2026-02-26 15:34:30 -04:00
 categories:
   - assignments
-tags:
-  - Jekyll
-  - update
+
 ---
+
+Your assignmenttags:
+  - update text starts here…
+
 
 ---
 
