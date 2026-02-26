@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1"
-date: 2026-02-26 15:34:30 -04:00
+date: 2026-02-25 15:34:30 -04:00
 categories:
   - assignments
 tags:
