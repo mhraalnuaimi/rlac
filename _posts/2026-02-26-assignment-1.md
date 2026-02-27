@@ -21,15 +21,15 @@ Our corpus includes two Rowling novels: Harry Potter and the Goblet of Fire (195
 We selected later Rowling novels because they contain sustained depictions of war, allowing meaningful comparison with darker fanfiction narratives. The texts are also relatively similar in length, which supports balanced comparison.
 
 ## Methodology: Building a Violence Dictionary in R
-	
-[Figure 1](assets/images/figure1.png)
+
+<img src="assets/images/figure1.png" alt="Violence Dictionary Figure">
 
 **Figure 1. Violence dictionary for analysis in R (124 terms)**
 To systematically measure violent action language, we constructed a custom ‘violence dictionary’ in R, shown in Figure 1. This violence dictionary included terms such as “attack”, “kill”, “curse”, “blood”, “wound”, “fight”, and magical combat terms like “Avada”, “Crucio”, and “sectumsempra”. The dictionary contains 124 terms, including grammatical variations (e.g., “attack”, “attacked”, “attacking”), allowing us to systematically capture violence-related language across texts.We normalized results by measuring mean frequency per 10,000 words on R to ensure proportional comparison across texts of different lengths.
 
 ## Findings from R: Heatmap Analysis 
  
-[Figure 2](assets/images/figure2.png)
+<img src="assets/images/figure2.png" alt="Heatmap Figure">
 
 **Figure 2. Heatmap of 15 terms from violence dictionary across the 2 Rowling and 3 Fanfiction Texts (per 10,000 words)**
 The heatmap in Figure 2 reveals striking differences in violent vocabulary distribution. In Deathly Hallows, the word “death” appears at a dramatically higher rate (15.4 occurrences per 10,000 words) compared to the fanfiction texts. Similarly, “kill” and "killed” occur more frequently in Rowling’s later novels than in most fanfiction works.
@@ -37,11 +37,11 @@ However, fanfiction texts display higher relative frequencies of bodily harm ter
 
 ## Findings from R: Word Clouds 
 
-[Figure 3](assets/images/figure3.png)
+<img src="assets/images/figure3.png" alt="Word Cloud 1">
 
 **Figure 3. Word clouds of normalized violence-term frequencies (per 10,000 words)**
 
-[Figure 4](assets/images/figure4.png)
+<img src="assets/images/figure4.png" alt="Word Cloud 2">
 
 **Figure 4. Comparative word clouds of violence-term frequencies across corpora (per 10,000 words).**
 
@@ -60,7 +60,7 @@ We entered violent words such as “kill,” “attack,” “blood,” “curse
 
 ## Findings from Voyant Tools: Cirrus Word Cloud
 
-[Figure 6](assets/images/figure6.png)
+<img src="assets/images/figure6.png" alt="Cirrus Word Cloud">
 
 **Figure 6. Voyant Cirrus word cloud showing the most frequent words across the corpus. Character names and dialogue verbs dominate, showing that violent vocabulary is not the most common language overall.**
 
@@ -68,7 +68,7 @@ The Cirrus word cloud added another layer to this comparison. Even though our pr
 
 ## Findings from Voyant Tools: Contexts tool
 
-[Figure 7](assets/images/figure7.png)
+<img src="assets/images/figure7.png" alt="Contexts Tool">
 
 **Figure 7. Voyant Contexts (concordance) view for the word kill. Rowling’s examples show hesitation or moral conflict, while fanfiction examples show more direct and assertive uses of violent language.**
 
