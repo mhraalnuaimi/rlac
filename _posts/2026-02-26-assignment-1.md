@@ -9,7 +9,7 @@ tags:
 ---
 
 <h1 style="text-align:center; font-size: 2.5em; margin-top: 20px;">
-Violence in Harry Potter — By Amna Al Mheiri and Mhara Al Nuami
+Violence in Harry Potter By Mhara Al Nuami and Amna Al Mheiri
 </h1>
 
 ## Introduction: Violence in Harry Potter
