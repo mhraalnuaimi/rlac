@@ -13,6 +13,12 @@ tags:
   - Assignment 
 
 ---
+
+
+<h1 style="text-align:center; font-size: 2.5em; margin-top: 20px;">
+Two Tools, One Corpus By Mhara Al Nuami and Shama Alameri
+</h1>
+
 Our assignment was essentially a question dressed up as a project: if you hand the same pile of books to two different computational tools, do they see the same library, or two different ones? The pile in question is a small but surprisingly varied corpus of 18 science fiction and speculative fiction texts pulled from Project Gutenberg, and the two tools are a matched pair that weight the same words very differently.
 
 - **Stylo** (an R package) leans on the most frequent words in a text, the quiet scaffolding of *the*, *and*, *of*, *was*, and uses the rates at which writers use those words to work out who wrote what.
@@ -198,5 +204,3 @@ Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evide
 - [Claude, April 2026](https://claude.ai/)
 - **Stylo**
 - **TF-IDF**
-
-
