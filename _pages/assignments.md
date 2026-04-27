@@ -13,4 +13,8 @@ author_profile: true
 </a>
 
 
+<a href="https://mhraalnuaimi.github.io/rlac/posts/assignments/assignment-2/" 
+   style="font-size: 30px; font-weight: bold;">
+   Assignment 2
+</a>
 
