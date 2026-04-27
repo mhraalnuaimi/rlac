@@ -1,5 +1,5 @@
 ---
-title: "A2: Two Tools, One Corpus"
+title: "Assignment 2"
 authors: "Shama & Mhara"
 layout: single
 date: 2026-04-24
