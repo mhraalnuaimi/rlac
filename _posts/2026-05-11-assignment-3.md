@@ -18,7 +18,7 @@ This assignment explores how word vector models represent meaning inside a large
 
 The goal of this assignment is to use pretrained Word2Vec models to explore how meaning is learned from context. Instead of reading sentences, the model learns patterns from how words appear together. This allows us to study relationships between words, themes, and concepts across a large body of texts. I used the notebook in Posit Cloud to run clustering, nearest neighbors, multi‑term similarity, vector subtraction, analogies, vector averaging, orthogonal projection, and centroid comparison. Each of these methods reveals a different aspect of how the model organizes meaning.
 
-As Underwood explains in *The Dangers of Distant Reading*, computational tools can reveal patterns that are hard to see through close reading, but they can also flatten nuance. This idea guided my approach. I used the model to explore relationships between words, but I also kept in mind that the model does not understand meaning the way humans do—it only learns from patterns in the text. This tension between pattern and meaning shaped how I interpreted the results. I tried to balance the model’s mathematical associations with my own understanding of science‑fiction themes.
+As Underwood explains in *The Dangers of Distant Reading*, computational tools can reveal patterns that are hard to see through close reading, but they can also flatten nuance. This idea guided my approach. I used the model to explore relationships between words, but I also kept in mind that the model does not understand meaning the way humans do, it only learns from patterns in the text. This tension between pattern and meaning shaped how I interpreted the results. I tried to balance the model’s mathematical associations with my own understanding of science‑fiction themes.
 
 Before running the analysis, I expected the model to show strong connections between words related to space, technology, and exploration. I also expected older science‑fiction vocabulary to appear, since the corpus is from public‑domain texts. I thought words like *ship*, *planet*, *crew*, and *machine* would appear together. I also expected differences between human‑centered and machine‑centered vocabulary, because early science fiction often contrasts humans with robots or aliens. These expectations helped me understand what the model captured—and what it missed.
 
@@ -224,10 +224,6 @@ Underwood, Ted. *Distant Horizons: Digital Evidence and Literary Change*. Univer
 *Project Gutenberg Science Fiction Corpus*. Course corpus.
 
 *Word Vectors and SciFi Authors Notebook*. Posit Cloud, course materials.
-
-Mikolov, Tomas, et al. “Efficient Estimation of Word Representations in Vector Space.” arXiv:1301.3781, 2013.
-
-**word2vec** R package. CRAN.
 
 ---
 
