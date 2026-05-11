@@ -266,6 +266,6 @@ Mikolov, Tomas, et al. “Efficient Estimation of Word Representations in Vector
 
 **word2vec** R package. CRAN.
 
-**READY FOR GRADING**
+
 
 
