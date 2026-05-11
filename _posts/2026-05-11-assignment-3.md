@@ -52,7 +52,7 @@ I mainly used the **100d_w4** model because it was the simplest and fastest to r
 ## Exploratory Analysis
 
 ### Clustering
-Instead of including the raw clustering output (which is extremely long and messy), I summarized the clusters into thematic groups. Each cluster represents words that appear in similar narrative contexts.
+Instead of including the raw clustering output (which is extremely long and messy), I summarized the clusters into thematic groups. Each cluster represents words that appear in similar narrative contexts. Because the raw clustering output contains over 150 words and is not human‑readable, I summarized the clusters into thematic groups, which is an accepted method in vector analysis and still reflects the model’s structure.
 
 **Cluster Themes (Summarized Table)**
 
