@@ -18,3 +18,8 @@ author_profile: true
    Assignment 2
 </a>
 
+
+<a href="https://mhraalnuaimi.github.io/rlac/assignments/assignment-3/" 
+   style="font-size: 30px; font-weight: bold;">
+   Assignment 3
+</a>
